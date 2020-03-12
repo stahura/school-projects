@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index-styles.css">
+    <title>SOFTWARE DESIGN & DESCRIPTION</title>
+    <meta charset="utf-8">
+
+</head>
+
+
+<body id="parent">
+    <main>
+        <input type="text" id="ajaxUser" class="user-pass">
+        <input type="password" id="ajaxPassword" class="user-pass">
+        <button id="ajaxButton" style="cursor: pointer; text-decoration: underline"> Login </button>
+        <span id="ajaxLoginStatus" style="color: blue;"></span>
+
+        <br>
+        <label>USER</label>
+        <label id="passwordLabel">PASSWORD</label>
+        <h1><b>SOFTWARE DESIGN & DESCRIPTION</b> </h1>
+        <p id="p1">The type of project I will be working on will be an
+            'Event Calendar'</p>
+        <br>
+        <p>This 'Event Calendar' will show the current month , including the days of the week,
+            in a grid. Each square within the grid will show any events for that day. Each square
+            will be interactive, allowing you to view the information in greater detail. It will
+            have the ability to create new events.
+            <br><br>
+            An example of an event Calendar is pictured below:
+        </p>
+        <img id="calendar-pic" src="images/google-calendar-pic.png" alt="image of google calendar"
+            style="width:700px;height:350px;">
+        <br>
+        <a href="https://www.booking-wp-plugin.com/wp-content/uploads/2018/05/google-calendar-sync.png" target="_blank">
+            Source: booking-wp-plugin.com </a>
+        <h2><b>Game Grid</b></h2>
+        <p id="p2">
+            The Google version of the Event Calendar can be found
+            <a href="https://calendar.google.com/calendar/r?pli=1" target="_blank"><b>HERE</b></a></p>
+        </p>
+        <p id="p3">
+            My version of the Event Calendar can be found
+            <a href="calendar.html"><b>HERE</b></a>
+        </p>
+        <p id="p3">
+            My checkpoint page can be found
+            <a href="checkpoint.html"><b>HERE</b></a>
+        </p>
+
+
+        <br>
+        <h2 id="h2-2"><b>Software Design</b></h2>
+        <br>
+        <pre>
+            currentGameState: {
+
+                "grid": [
+                    ['', '1', '2', '3', '4', '5', '6'],
+                    ['7', '8', '9', '10', '11', '12', '13'],
+                    ['14', '15', '16', '17', '18', '19', '20'],
+                    ['21', '22', '23', '24', '25', '26', '27'],
+                    ['28', '29', '30', '31', '', '', '']
+                    ] 
+
+                "eventsGrid": [
+                    ['', '', '', 'Dentist Apt.', '', '', ''],
+                    ['', '', '', '', '', '', ''],
+                    ['', 'Assignment 3 Due', '', '', '', '', ''],
+                    ['', "", 'Assignment 4 Due', '', '', '', ''],
+                    ['', 'Assignment 5 Due', '', '', '', '', '']
+                    ]
+
+                "month": "July"
+                "year": 2019
+                "day": 14
+                "dayOfWeek": "Sun"
+            }
+        </pre>
+        <h3 id="h3-1">Model</h3>
+        <br>
+        <p>VARIABLES</p>
+        <br>
+        <p><b>month</b>- the current calendar month</p>
+        <p><b>year</b>- the current calendar year</p>
+        <p><b>day</b>- the current calendar day</p>
+        <p><b>weekday</b>- the current calendar weekday</p>
+        <p><b>grid</b>- an array reflecting the day of year for each cell</p>
+        <p><b>eventsGrid</b>- an array containing events for each day</p>
+        <br>
+        <p><b>FUNCTIONS</b> <br>(These functions are called in "./Scripts/view.js" in function
+            "generateCalendarBody" at
+            line
+            75 and 76 ) </p>
+        <br>
+        <p><b>getCellDate(row,col)</b> - returns an item from a 2D array. This item is the day of the year
+            for the given
+            cell</p>
+        <p><b>getCellEvents(row,col)</b> - returns an item from a 2d array. These items are the events for a
+            given day.
+        </p>
+
+        <script src="./Scripts/ajax.js"></script>
+    </main>
+
+</body>
+<script src="Scripts/index.js"></script>
+
+</html>

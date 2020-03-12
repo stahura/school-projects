@@ -1,0 +1,6 @@
+Here is Riley's homework
+
+Look up Ternary expressions, practice using them.
+
+Look up javascript map, filter, reduce (there are array functions). Practice using those as well
+

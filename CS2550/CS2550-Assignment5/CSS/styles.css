@@ -1,0 +1,83 @@
+.DayOfWeek {
+  color: blue;
+  border: solid black 5px;
+}
+
+#MonthYear {
+  font-size: 2em;
+  box-shadow: 0px 1px 1px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 3px solid black;
+  border-bottom: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(238, 236, 236);
+}
+
+table {
+  width: 1000px;
+  max-width: 1000px;
+  height: 700px;
+  margin: auto;
+  box-shadow: 0px 1px 1px;
+  border-spacing: 0px;
+  border: solid 1pt;
+  background-color: rgb(238, 236, 236);
+  table-layout: fixed;
+}
+
+thead th {
+  height: 5px;
+  border: solid 1pt black;
+  color: crimson;
+}
+
+td {
+  border: solid 1pt black;
+  text-align: center;
+  text-align: justify;
+}
+
+body {
+  margin: auto;
+  max-width: 100%;
+}
+
+html {
+  /* background-color: rgb(238, 238, 217);*/
+  background-color: rgb(175, 206, 233)
+}
+
+pre {
+  margin: auto;
+  max-width: 1000px;
+  margin-top: 20px;
+  text-align: center;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.darker {
+  /*background-color: rgb(167, 166, 166);*/
+  background-color: rgba(202, 160, 168, 0.616);
+  background-color: rgb(175, 206, 233)
+}
+
+#title {
+  text-align: center;
+}
+
+#selected-cell {
+  text-align: center;
+}
+
+select {
+  margin-left: 50px;
+  position: absolute;
+  margin-top: 11px;
+}
+
+#userInformation {
+  text-align: center;
+
+}

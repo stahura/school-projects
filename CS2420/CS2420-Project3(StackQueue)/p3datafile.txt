@@ -1,0 +1,47 @@
+append 10
+serve
+append 20
+append 30
+serve
+push 10
+push 50
+push 20
+push 20
+pop
+push 50
+pop
+pop
+append 50
+append 35
+append 25
+append 40
+serve
+append 60
+append 70
+append 75
+append 100
+append 200
+append 150
+push 10
+push 50
+pop
+pop
+push 20
+push 20
+push 10
+pop
+pop
+push 10
+push 50
+push 20
+push 20
+push 10
+pop
+pop
+push 20
+push 20
+push 10
+pop
+pop
+push 20
+push 10

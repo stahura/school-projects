@@ -1,0 +1,1 @@
+This contains python projects and exercises from CS1400. A few of the projects import other files within the same folder. (It's Not very organized)

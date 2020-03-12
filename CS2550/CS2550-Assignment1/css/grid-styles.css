@@ -1,0 +1,54 @@
+#M-F
+{
+    Color: red;
+    border: solid black 5px;
+    height: 5%;
+
+}
+.DayOfWeek
+{
+    Color: blue;
+    border: solid black 5px;
+}
+#MonthYear
+{
+    Font-size: 2em;
+    box-shadow: 0px 1px 1px; 
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+table 
+{
+    
+    width: 1000px;
+    max-width: 1000px;
+    height: 700px;
+    margin: auto;
+    box-shadow: 0px 1px 1px; 
+    border-spacing: 0px;
+   
+}
+table,th,tr
+{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+     
+}
+body
+{
+    margin: auto;
+    max-width: 100%;
+    padding-top: 40px;
+}
+.week1,.week2,.week3,.week4,.week5
+{
+    height: 15%;
+
+}
+html
+{
+    background-color: rgb(241, 241, 238);
+}

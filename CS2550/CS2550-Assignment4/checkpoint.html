@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Checkpoint</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>CHECKPOINT - ASSIGNMENT 4</h1>
+    <p><b>Progress is indicated by color. <span style="color: green">Green</span> is functioning and <span
+                style="color: red">Red </span>is not functioning</b></p>
+    <h2>Game Logic Required</h2>
+    <ul>
+        <li style="color: green">Table caption displays correct month/year</li>
+        <li style="color: green">Each cell displays correct date and day of week</li>
+        <li style="color: green">2D array updates dynamically according javascript Date methods </li>
+        <li style="color: green">Select menu allows you to select desired Month</li>
+        <li style="color: green">Changing select menu option updates calendar caption date</li>
+        <li style="color: red">Each cell displays correct date when month is changed</li>
+        <li style="color: green">Coordinates of currently selected cell is displayed</li>
+        <li style="color: green">Clicking on cell allows you to create an event</li>
+        <li style="color: red">Create a function to delete events</li>
+    </ul>
+    <h2>How to test logic</h2>
+    <p><b>Table Caption:</b> Click Select Menu >> Choose different Month</p>
+    <p><b>2D Array: </b> Although this is backend and you aren't looking for this, the grid is printed in console. This
+        grid is used to populate the
+        date on cells. Right now, it is bugged when changing months. </p>
+    <p><b>Select options: </b>Same steps as the Table Caption. Console displays a message when the function returns.
+    </p>
+    <p><b>Event Creation</b> Click within cell >> A text field and button are created >> Enter information in text box
+        >> Click "Add Event" Button</p>
+    <p><b>Coordinates of Cell:</b>Same steps as Event Creation. When you click in the cell, coordinates are displayed
+        above the Calendar and below the Page Title in the format [row][column]</p>
+
+    <h2>What's left?</h2>
+    <p>I have most of the logic I need for this calendar to function, I'd say I have ~80% of needed functionality for
+        what i envisioned when i started this project . I'll be honest, I don't know how I will manage to
+        delete events. I'll also probably struggle to figure out how to retain events when I switch between months. The
+        better design would probably be to find a way to create objects with properties, but this event calendar has
+        proven far more complicated than I imagined. I'm not sure I'll have the time to rethink and redraw everything
+        up. I imagine there'd be a way to model it so that Each month could be an object, with cell properties who are
+        objects themselves, who will have event properties </p>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+1
+H. Potter
+Privet Drive
+201-9090
+40
+12
+2
+A. Dumbledore
+Hogwarts
+803-1230
+1200
+3
+R. Weasley
+The Burrow
+892-2000
+40
+10
+4
+R. Hagrid
+Hogwarts
+910-8765
+1000

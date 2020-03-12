@@ -1,0 +1,32 @@
+body
+{
+max-width: 800px;
+margin: auto;
+background-color: rgb(238, 238, 217); 
+box-shadow:0px 10px 20px; 
+padding-left: 7%;
+padding-bottom: 50px;
+}
+
+h1
+{
+    margin-left: 130px;
+}
+
+#calendar-pic
+{
+  box-shadow:0px 1px 13px;
+  
+}
+h2
+{
+    margin-left: 300px;
+}
+#p2
+{
+    margin-left: 170px;
+}
+#p3
+{
+    margin-left: 200px;
+}
